@@ -43,10 +43,10 @@ en css tom en cuenta la ultima instruccion
 pendientes
 indicar que ficheros tiene que inspeccionar
 
-seleccionar el temrinal Git Bash
+seleccionar el terminal Git Bash
 git init
 git Add
-git commit 
+git commit -m "mi primer commit"
 
 
 subir al repositorio remoto
