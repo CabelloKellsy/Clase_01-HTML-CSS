@@ -1,0 +1,55 @@
+<! -- la internet: son estrucutras antenas, etc. web: servicio que usa la infraestrutura -->
+HTML es un lenguaje declarativo
+es un lenguaje que no tiene estado, no se actualiza.
+
+<h1> </h1> -- para definir un titulo
+<P> </p> --- para definir un parrafo
+<img> </img> --- pra definir una imagen
+
+HTML solo tiene 4 tipos de reglas
+1. el contenido en etiquetas
+2. existen atributos para definir el comportamiento de etiquetas
+3. etiquetas interrelacionadas
+4. las etiquetas tienen un valor semantico
+
+SEM: pago a google por ofrecer la pagina y ser prioridad de los buscadores
+
+! + intro = estrutua de la pagina
+
+head: aporta informacion al servidor
+body: cuerpo de la pagina
+
+charset: indica el caracter del idioma
+
+muestra que la pagina sea responsible y se adapte a diferentes dispositivos
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Document</title>: titulo de la pestaña
+
+Extension para servidor web
+Live Server: Extension (SERVIDOR) para ficheros HTML 
+sirve para ejecutar el archivo "Open with live server" y crea un puerto con direccion similar http://127.0.0.1:5500/index.html 
+
+Live Preview: 
+Muestra un mini pagina simulando un navegador es solo para html
+
+W3C: validador html online
+https://validator.w3.org/#validate_by_upload
+
+css indebido o incrustado hace referencias que el estilo se encuentr dentro del html
+
+en css tom en cuenta la ultima instruccion
+
+-- GIT --------------------------
+pendientes
+indicar que ficheros tiene que inspeccionar
+
+seleccionar el temrinal Git Bash
+git init
+git Add
+git commit 
+
+
+subir al repositorio remoto
+
+
+
