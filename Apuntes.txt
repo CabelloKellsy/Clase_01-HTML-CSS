@@ -50,6 +50,21 @@ git commit
 
 
 subir al repositorio remoto
+git config --global core.editor "code --wait"
 
+config usuario en git local
+git config --global user.name kelsy
+
+config email de forma local
+$ git config --global user.email 
+
+abrir el archivo de configuracion y se puede modificar los datos
+ git config -e
+
+ver config global
+[safe] muestra drectorios autorizados ejm pedrive
+
+config global de linea de saltos WINDOWS = TRUE , MAC INPUT y LINUX INPUT
+$ git config --global core.autocrlf true
 
 
