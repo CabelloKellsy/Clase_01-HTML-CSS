@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
+  <!-- parte visual de proyecto va en body, la estructura visual es conocido como layout -->
   <body>
+    <!-- las etiquetas de texto sifueb una jerarquia, van consecutivos des h1,h2,h3, etc -->
+
     <!-- Etiquetas de texto -->
+    <!-- el h1 es el titulo principal de la pagina ejm-. new york times  -->
     <h1>Hola HTML</h1>
     <h2>Titulo 2</h2>
     <h3>titulo 3</h3>
@@ -18,10 +22,51 @@
     <h5>titulo 5</h5>
     <h6>titulo 7</h6>
 
-    <p>Estoy analizando la pagina</p>
+    <!-- considerar el # para indicar que esta llamando al id de h2 (lista interna de la pagina) -->
+    <p id="inicio"><a href="#listas">listas </a></p>
 
-    <!-- listas -->
+    <!-- etiquetas que producen salto de linea se llaman bloquin  -->
+
+    <p>
+      Otro elemento HTML que te permite estructurar el contenido de la página
+    </p>
+    <p>
+      Otro elemento HTML que te permite estructurar el contenido de la página
+    </p>
+
+    <!-- se puede usar para codigos dentro de un html  -->
+    <pre>
+ Otro elemento HTML que te permite estructurar el contenido de la página, Otro elemento HTML que te permite estructurar el contenido de la página </pre
+    >
+
+    <!-- te permite crear textos ficticios, ALT + MAYUS + F (remaquetar) -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius omnis ipsa
+      quasi asperiores exercitationem, sunt temporibus repellat eveniet sequi
+      doloribus autem ab placeat explicabo enim aut tempore mollitia nam
+      consequuntur?
+      <sub>1</sub>
+    </p>
+    <p>
+      <p>La formula de la relatividad  es E = MC<sup>2</sup></p>
+      <p>La casa tenia 100 m<sub>2</sub></p>
+      <p>la formula del agua es H<sub>2</sub>O</p>
+
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+      veritatis, quis earum animi, amet, repellendus accusantium quia culpa
+      consequatur perferendis consectetur temporibus aut ratione eaque
+      reprehenderit quae deserunt corporis ullam Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit. Dicta facilis necessitatibus quae sequi
+      reprehenderit. Nulla magnam suscipit explicabo vero iure, obcaecati quidem
+      dolorem in quas quam vel quibusdam odit nesciunt?
+    </p>
+
+    <!-- listas 3 tipos-->
     <!-- listas desordenadas = Unordered List-->
+    <h2 id="listas"><a href="#inicio"></a> Listas Ordenada</h2>
+
+    <!-- el h2 permite crear la lista interna -->
+
     <ul>
       <li>Elementos 1</li>
       <li>Elementos 2</li>
@@ -44,5 +89,12 @@
       <dd>Elementos 3</dd>
       <dd>Elementos 4</dd>
     </dl>
+
+    <!-- target="_blank"> hace que la pagina se habra en la nueva pestaña -->
+    <!-- https indica que estamos en una pagina externa, el href contiene un dominio, el target te sirve para llavar a 
+      una pestaña diferente dentro de la misma pagina web, sin abrir otra pestaña -->
+    <a href="https://es.linkedin.com/" target="_blank"> Linkedin </a>
+
+    <a href="segunda_pagina.html">segun pagina</a>
   </body>
 </html>

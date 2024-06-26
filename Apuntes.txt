@@ -67,4 +67,4 @@ ver config global
 config global de linea de saltos WINDOWS = TRUE , MAC INPUT y LINUX INPUT
 $ git config --global core.autocrlf true
 
-
+Pull contrario de push
