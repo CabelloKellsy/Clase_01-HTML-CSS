@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Imagenes </h1>
-    <h2>Tipos de Imagenes </h2>
-    <h3>Imagenes de Mapa de Bits </h3>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagees</title>
+    <!-- agregamos la imagen como icono de la pagina  -->
+    <!-- <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f7/Cup-o-coffee-simple.svg?uselang=es" type="image/x-icon" /> -->
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/f/f7/Cup-o-coffee-simple.svg?uselang=es"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1>Imagenes:</h1>
+    <h2>Tipos de Imagenes</h2>
+    <h3>Imagenes de Mapa de Bits</h3>
 
     <ul>
-        <li>bmp</li>
-        <li>jpg</li> <!-- -->
-        <li>png</li> <!-- logos -->
+      <li>bmp</li>
+      <li>jpg</li>
+      <!-- -->
+      <li>png</li>
+      <!-- logos -->
     </ul>
 
+    <!-- pueden reproducirse sin perder la calidad  -->
+    <h1>imagenes vectoriales</h1>
+    <ul>
+      <li>svg</li>
+    </ul>
 
-    
-</body>
+    <!-- la etiqeuta alt te permite posicionar la imagen al momento de buscar ejm "gatos"-->
+    <!-- <img src="img\Familia-gatos.webp" alt=" Familia de gatos" width="100%" /> -->
+    <picture>
+      <!-- recorre las imagenes de diferentes tamaños, dependiendo el tipo de dispositivo  -->
+      <!-- media indica la condicion de cuando cargar la imagen, ira leendo de acuerdo a la condicional  -->
+      <source srcset="img\taza_cafe_leche_450.avif" media="(max-width: 450px)" />
+      <source srcset="img\taza_cafe_leche_900.avif" media="(max-width: 900px)" />
+      <source srcset="img\taza_cafe_leche_1350.avif" media="(max-width: 1350px)" />
+      <source srcset="img\taza_cafe_leche_2000.avif" media="(max-width: 2000px)" />
+      <img src="img\taza_cafe_leche_2000.avif" alt=" Familia de gatos" width="100%" /> 
+
+
+
+    </picture>
+
+
+
+
+
+  </body>
 </html>

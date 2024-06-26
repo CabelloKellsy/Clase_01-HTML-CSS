@@ -68,3 +68,29 @@ config global de linea de saltos WINDOWS = TRUE , MAC INPUT y LINUX INPUT
 $ git config --global core.autocrlf true
 
 Pull contrario de push
+
+Paginas para ver imagenes 
+https://www.freepik.es/
+https://unsplash.com/es
+https://icon-icons.com/
+
+imagenes vectoriales
+https://undraw.co/
+https://undraw.co/illustrations
+las iamgenes svg no pesan mucho como el png, es un fichero vectorial
+
+optimizar y/o comprimir imagenes
+https://squoosh.app/
+
+extencion para simular la visualizacion de la pagina diferentes dispositivos
+https://chromewebstore.google.com/detail/simulador-m%C3%B3vil-herramien/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=es
+
+recomendable tener controlado el tamaño
+para moviles 450px =<
+para tablets 900ox =<
+ordenadores pequeños 1350px =<
+
+
+
+
+
